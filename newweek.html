@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+</head>
+
+<body>
+    <form>
+        <label for="">
+            Enter your first name
+        </label><br>
+        <input type="text" name="First_name" id="firstname" required><br><br>
+
+        <label for="">
+            Last name
+        </label><br>
+        <input type="lastname" name="lastname" id="lastname" required>
+
+        <label for="Email"><br><br>
+            Email
+        </label><br>
+        <input type="email" name="Email" id="Email" required><br>
+
+        <label for="password"><br>
+            Password
+        </label><br>
+        <input type="password" name="password" id="password" required><br>
+
+        <label for="phone number"><br>
+            Phone Number
+        </label><br>
+        <input type="phone number" name="phone number" id="phone number" required><br>
+
+        <label for="file"><br>
+            File
+        </label><br>
+        <input type="file" name="file" id="file" multiple><br>
+
+        <label><br>
+            Choose your hoobies
+        </label><br>
+        <input type="checkbox" name="hoobies" id="Dancing" value="Dancing"> <label for="Dancing">Dancing</label><br>
+        <input type="checkbox" name="hoobies" id="Singing" value="Singing"> <label for="Singing">Singing</label><br>
+        <input type="checkbox" name="hoobies" id="Sports" value="Sports"> <label for="Sports">Sports</label><br>
+
+        <label><br>
+            Choose your profession
+        </label><br>
+        <input type="radio" name="profession" id="Chemist" value="Chemist" required> <label for="Dancing">Chemist</label><br>
+        <input type="radio" name="profession" id="Docter" value="Doctor"required> <label for="Singing">Doctor</label><br>
+        <input type="radio" name="profession" id="Engineer" value="Engineer"required> <label for="Sports">Engineer</label><br>
+
+        <label for="Date"><br>
+            Date
+        </label><br>
+        <input type="date" name="Date" id="Date" required><br>
+
+        <label for="time"><br>
+            Time
+        </label><br>
+        <input type="time" name="time" id="time"><br>
+
+        <label for="datetime-local"><br>
+            Datetime-local
+        </label><br>
+        <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+
+        <label for="Country">
+            Choose your Country
+        </label>
+        <select name="Country" id="Country" required>
+            <option value="">
+                Choose
+            </option>
+            <option value="Nigeria">
+                Nigeria
+            </option>
+            <option value="Niger">
+                Niger
+            </option>
+            <option value="China">
+                China
+            </option>
+            <option value="France">
+                France
+            </option>
+        </select><br><br>
+
+        <label for="comment"><br>
+            Enter a comment
+        </label><br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Sign up"><br><br>
+        <button type="submit"><br>
+            Login
+        </button>
+
+    </form>
+</body>
+
+</html>
